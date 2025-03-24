@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="840583f3-d527-3e5f-b20b-184315accc26" enabled="true" level="SERVER PROBLEM" enabled_by_default="false" editorAttributes="GENERIC_SERVER_ERROR_OR_WARNING">
+      <scope name="All Changed Files" level="ERROR" enabled="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    </inspection_tool>
+    <inspection_tool class="CustomRegExpInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myConfigurations">
+        <list>
+          <RegExpInspectionConfiguration>
+            <option name="description" value="You cannot commit with NO-COMMIT comment in code." />
+            <option name="name" value="NO-COMMIT comment" />
+            <option name="problemDescriptor" value="you cannot commit with #ref comments in code" />
+            <option name="uuid" value="840583f3-d527-3e5f-b20b-184315accc26" />
+            <option name="patterns">
+              <list>
+                <InspectionPattern>
+                  <option name="regExp" value="NO-COMMIT" />
+                  <option name="_fileType" value="UNKNOWN" />
+                  <option name="searchContext" value="ANY" />
+                </InspectionPattern>
+              </list>
+            </option>
+          </RegExpInspectionConfiguration>
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SerializableHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SerializableInnerClassHasSerialVersionUIDField" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreAnonymousInnerClasses" value="false" />
+      <option name="superClassString" value="java.awt.Component" />
+    </inspection_tool>
+    <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>

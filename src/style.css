@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-repeat: repeat;
+  background-position: center;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' width='24' height='24'><rect x='12' y='0' width='12' height='12' fill='%23e8e8e8'/><rect x='0' y='12' width='12' height='12' fill='%23e8e8e8'/></svg>");
+  color: #24292e;
+  font-family: "NanumBarunGothic", sans-serif;
+}
+
+p {
+  color: #959da5;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1;
+}
+
+#results {
+  transform: scale(50%) translateX(-50%) translateY(-50%);
+  margin: 50px;
+}
